@@ -1,0 +1,313 @@
+/*版心的公共类*/
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?7kkyc2');
+	src: url('../fonts/icomoon.eot?7kkyc2#iefix')format('embedded-opentype'),
+	url('../fonts/icomoon.ttf?7kkyc2')format('truetype'),
+		url('../fonts/icomoon.woff?7kkyc2')format('woff'),
+		url('../fonts/icomoon.svg?7kkyc2#icomoon')format('svg');
+	font-weight:normal;
+	font-style: normal;
+}
+.shortcut i{
+	font-family: "icomoon";
+	font-weight:normal;
+	font-style: normal;
+	color: #ccc;
+	}
+body{
+	background-color: #f6f6f6;
+}
+a {
+	text-decoration: none;
+	color: #999;
+}
+a:hover{
+	color: #c81623;
+}
+.c-f10215 {
+	color: #f10215;
+}
+.c-c81623 {
+	color: #c81623;
+}
+h1{
+	margin: 0;
+	padding: 0;
+}
+ul,
+button,
+input{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+input,
+button{
+	border: 0;
+	outline: none;
+}
+
+
+
+.w{
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+/*头部广告*/
+header{
+	height: 80px;
+	background-color: #f1d0bf;
+}
+
+/*快速导航栏*/
+.shortcut {
+	height: 30px;
+	background-color: #e3e4e5;
+	font-size: 15px;
+	line-height: 30px;
+	color: #999;
+}
+.city {
+	margin-left: 200px;
+}
+.city i{
+	color: #f10215;
+}
+.space {
+	height: 10px;
+	width: 1px;
+	background-color: #ccc;
+	margin: 10px 12px 0;
+}
+.shortcut li{
+	float: left;
+}
+.mobile{
+	position: relative;
+}
+.mobile img{
+	position: absolute;
+	top: 29px;
+	left: 0;
+	boder: 1px solid #ccc；
+}
+.middle {
+	height: 140px;
+	position: relative;
+}
+.logo {
+	margin-top: -30px;
+	position: absolute;
+	left: 0;
+}
+.logo a{
+	display: block;
+	width: 192px;
+	height: 170px;
+	background: url("../images/logo.png");
+	
+}
+
+.search{
+	width: 550px;
+	height: 35px;
+	position: absolute;
+	top: 25px;
+	left: 320px;
+}
+.search input {
+	width: 498px;
+	height: 33px;
+	border: 1px solid #f10215;
+	float: left;
+}
+.search button{
+	width: 50px;
+	height: 35px;
+	float: left;
+	background-color: skyblue;
+}
+.shopcar{
+	width: 188px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 25px;
+	right: 95px;
+	color: red;
+	background-color: #fff;
+}
+.shopcar span{
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	background-color: red;
+	color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	right: 30px;
+}
+
+/*小导航模块*/
+.navitems{
+	width: 770px;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 200px;
+	
+}
+.navitems li{
+	float: left;
+	margin-left: 30px;
+}
+.navitems li a{
+	font-size: 16px;
+	font-weight: 400px;
+	color: #555;
+}
+.navitems li a:hover{
+	color: #f10215;
+}
+.navitems space{
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: -15px;
+}
+
+/*超级日*/
+.day{
+	position: absolute;
+	bottom: 10px;
+	right: 0px;
+}
+
+/*页面底部*/
+foter {
+	height: 500px;
+	background-color: #EAEAEA;
+	margin-top: 35px; 
+}
+.service{
+	padding: 30px 0;
+	border-bottom: 1px solid #DEDEDE;
+	overflow: hidden;
+}
+
+.service ul li{
+	width: 297px;
+	height: 43px;
+	line-height: 43px;
+	position: relative;
+	float: left;
+}
+.service li h5{
+	position: absolute;
+	top: 0;
+	left: 38px;
+	width: 36px;
+	height: 43px;
+	background: url(../images/sprite.footer.png)no-repeat;
+	background-position: left bottom;
+}
+.service li:nth-child(2) h5{
+	background-position: -41px bottom;
+}
+.service li p{
+	
+	font-weight: 700;
+	margin-left: 82px;
+}
+
+/*版主模块*/
+.help{
+	height: 300px;
+	border-bottom: 1px solid #DEDEDE;
+	padding-top:25px;
+	box-sizing: border-box;
+}
+.help dl {
+	width: 193px;
+	float: left;
+}
+.help dt {
+	height: 30px;
+	
+}
+.help dd{
+	height: 22px;
+}
+
+.coverage{
+	width: 200px;
+	height: 150px;
+	background: url(../images/sprite.footer.png)no-repeat;
+}
+
+.coverage h5{
+	height: 30px;
+	font-size: 16px;
+	color: #666;
+	padding-left: 35px;
+}
+.coverage p{
+	width: 180px;
+	color: #666;
+	font-size: 12px;
+	line-height: 18px;
+	}
+.coverage a{
+	display: block;
+	margin-top: 5px;
+	text-align: right;
+}
+
+/*版权*/
+
+.copyright{
+	padding-top: 20px;
+	text-align: center;	
+	color: #666;
+	font-size: 12px;
+}
+.copyright span{
+	margin: 0 10px;
+}
+
+.copyright a{
+	color: #666;
+}
+
+
+.foot-icon a{
+	display: inline-block;
+	width: 103px;
+	height: 33px;
+	background: url("../images/sprite.footer.png") no-repeat right 0;
+	margin-top: 20px;
+}
+
+.foot-icon a:nth-child(2){
+	background-position: right -37px;
+}
+.foot-icon a:nth-child(3){
+	background-position: right -74px;
+}
+.foot-icon a:nth-child(4){
+	background-position: right -111px;
+}
+.foot-icon a:nth-child(5){
+	background-position: right -148px;
+}
